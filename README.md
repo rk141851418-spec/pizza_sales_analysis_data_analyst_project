@@ -70,7 +70,7 @@ pizza_sales_project/
 - Customers typically purchase **1 pizza per size/type**.
 - However, the most common order contains **2 pizzas in total**, indicating combo-style purchasing.
 - This suggests strong potential for **bundle offers and upselling larger sizes**.
-- 
+  
 ### 🍕 Category Performance
 - The **Classic category** leads in both total orders and total revenue.
 - It provides a stable revenue base while niche categories contribute smaller shares.
@@ -103,7 +103,7 @@ The dashboard helps stakeholders quickly understand performance and make data-dr
 Follow these steps to understand and reproduce the complete workflow.
 
 ### 1️⃣ Clone the Repository
-git clone <your-repo-link>  
+git clone <[your-repo-link](https://github.com/rk141851418-spec/pizza_sales_analysis_data_analyst_project)>  
 cd pizza_sales_project
 
 ### 2️⃣ Load Data & Create Database Tables
