@@ -59,3 +59,40 @@ pizza_sales_project/
 ├── dashboard.pbix             # Power BI dashboard
 ├── pizza sales analysis using sql.pdf   # SQL analysis report
 ├── report.pdf                 # Final business insights report
+
+## 📈 Strategic Revenue & Operational Insights
+
+### 💰 Profitability vs Popularity
+- The **Classic Deluxe** is the highest-volume pizza, but **Thai Chicken Pizza** generates the highest revenue.
+- Premium pizzas are strong revenue drivers even with lower order volume.
+
+### 📦 Size Drives Revenue
+- **Large pizzas** generate more revenue than all other sizes combined.
+- Average order quantity is ~1 pizza per order → revenue growth depends on **selling larger sizes**, not more units.
+
+### 🍕 Category Performance
+- The **Classic category** leads in both total orders and total revenue.
+- It provides a stable revenue base while niche categories contribute smaller shares.
+
+### ⏰ Peak Demand Window
+- **12:00 PM (Lunch hour)** is the biggest revenue driver.
+- Lunch outperforms dinner, indicating strong weekday office demand.
+
+### 📉 Underutilized Capacity
+- **72.8% of revenue comes from weekdays**.
+- Sales drop significantly between **2 PM – 4 PM**, showing unused kitchen capacity.
+
+### 📋 Menu Optimization Opportunity
+- Some pizzas fail to reach **1,000 orders and $15K revenue**.
+- These items increase inventory and menu complexity without strong ROI.
+
+- ## 📊 Dashboard
+
+An interactive Power BI dashboard was created to visualize key business metrics:
+
+- KPI cards for Revenue, Orders and Pizzas Sold  
+- Sales trends by Hour, Day and Month  
+- Top Selling Pizzas  
+- Revenue by Category and Size  
+
+The dashboard helps stakeholders quickly understand performance and make data-driven decisions.<img width="1288" height="725" alt="Screenshot 2025-12-19 071904" src="https://github.com/user-attachments/assets/7ee80c9a-1360-48b1-95b4-13ddb33fcced" />
