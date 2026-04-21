@@ -66,10 +66,11 @@ pizza_sales_project/
 - The **Classic Deluxe** is the highest-volume pizza, but **Thai Chicken Pizza** generates the highest revenue.
 - Premium pizzas are strong revenue drivers even with lower order volume.
 
-### 📦 Size Drives Revenue
-- **Large pizzas** generate more revenue than all other sizes combined.
-- Average order quantity is ~1 pizza per order → revenue growth depends on **selling larger sizes**, not more units.
-
+### 📦 Order & Size Behavior
+- Customers typically purchase **1 pizza per size/type**.
+- However, the most common order contains **2 pizzas in total**, indicating combo-style purchasing.
+- This suggests strong potential for **bundle offers and upselling larger sizes**.
+- 
 ### 🍕 Category Performance
 - The **Classic category** leads in both total orders and total revenue.
 - It provides a stable revenue base while niche categories contribute smaller shares.
@@ -96,3 +97,4 @@ An interactive Power BI dashboard was created to visualize key business metrics:
 - Revenue by Category and Size  
 
 The dashboard helps stakeholders quickly understand performance and make data-driven decisions.<img width="1288" height="725" alt="Screenshot 2025-12-19 071904" src="https://github.com/user-attachments/assets/7ee80c9a-1360-48b1-95b4-13ddb33fcced" />
+
