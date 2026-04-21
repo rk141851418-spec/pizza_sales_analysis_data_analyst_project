@@ -98,3 +98,47 @@ An interactive Power BI dashboard was created to visualize key business metrics:
 
 The dashboard helps stakeholders quickly understand performance and make data-driven decisions.<img width="1288" height="725" alt="Screenshot 2025-12-19 071904" src="https://github.com/user-attachments/assets/7ee80c9a-1360-48b1-95b4-13ddb33fcced" />
 
+## ▶️ How to Read & Run This Project
+
+Follow these steps to understand and reproduce the complete workflow.
+
+### 1️⃣ Clone the Repository
+git clone <your-repo-link>  
+cd pizza_sales_project
+
+### 2️⃣ Load Data & Create Database Tables
+Run the ETL script to ingest CSV files into SQLite:
+python scripts/ingest_data.py
+
+This will create:
+- SQLite database
+- Pizza sales tables
+- Log files
+
+### 3️⃣ Open and Run Notebooks
+Start Jupyter Notebook:
+jupyter notebook
+
+Open notebooks in this order:
+1. Data Exploration  
+2. SQL Analysis  
+3. Visualization  
+
+### 4️⃣ Open Power BI Dashboard
+Open **dashboard.pbix** in Power BI Desktop to explore the final interactive dashboard.
+
+## 🚀 Future Work
+
+- Automate the ETL pipeline to run on a schedule (Airflow / Cron).
+- Migrate the database from SQLite to a cloud database (PostgreSQL / BigQuery).
+- Publish the Power BI dashboard to Power BI Service for online access.
+- Implement machine learning to forecast pizza demand.
+- Perform customer segmentation and recommendation analysis.
+
+## 👤 Author
+
+**Rakesh Kumar**  
+Data Analyst  
+
+## 📬 Contact
+- Email: rk141851418@gmail.com
