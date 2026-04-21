@@ -1,0 +1,117 @@
+2026-04-14 09:09:28,569 - INFO - creating pizza table
+2026-04-14 09:09:28,570 - INFO - starting sql query to create pizza table
+2026-04-14 09:09:28,897 - INFO - successfully created pizza table
+2026-04-14 09:09:28,899 - INFO -    order_id                       name category size  price  quantity  \
+0         1         The Hawaiian Pizza  Classic    M  13.25         1   
+1         2     The Thai Chicken Pizza  Chicken    L  92.00         5   
+2         3  The Italian Supreme Pizza  Supreme    M  37.25         2   
+3         4  The Italian Supreme Pizza  Supreme    M  16.50         1   
+4         5  The Italian Supreme Pizza  Supreme    M  16.50         1   
+
+   revenue        date      time  
+0    13.25  2015-01-01  11:38:36  
+1    92.00  2015-01-01  11:57:40  
+2    37.25  2015-01-01  12:12:28  
+3    16.50  2015-01-01  12:16:31  
+4    16.50  2015-01-01  12:21:30  
+2026-04-14 09:09:28,909 - INFO - clean data...
+2026-04-14 09:09:28,910 - INFO - cleaning table ....
+2026-04-14 09:09:29,060 - INFO - successfully cleaned
+2026-04-14 09:09:29,061 - INFO -    order_id                       name category size  price  quantity  \
+0         1         The Hawaiian Pizza  Classic    M  13.25         1   
+1         2     The Thai Chicken Pizza  Chicken    L  92.00         5   
+2         3  The Italian Supreme Pizza  Supreme    M  37.25         2   
+3         4  The Italian Supreme Pizza  Supreme    M  16.50         1   
+4         5  The Italian Supreme Pizza  Supreme    M  16.50         1   
+
+   revenue month_name  hour   weekday  
+0    13.25    January    11  Thursday  
+1    92.00    January    11  Thursday  
+2    37.25    January    12  Thursday  
+3    16.50    January    12  Thursday  
+4    16.50    January    12  Thursday  
+2026-04-14 09:09:29,066 - INFO - ingesting...
+2026-04-14 09:17:55,689 - INFO - creating pizza table
+2026-04-14 09:17:55,690 - INFO - starting sql query to create pizza table
+2026-04-14 09:17:55,977 - INFO - successfully created pizza table
+2026-04-14 09:17:55,980 - INFO -    order_id                       name category size  price  quantity  \
+0         1         The Hawaiian Pizza  Classic    M  13.25         1   
+1         2     The Thai Chicken Pizza  Chicken    L  92.00         5   
+2         3  The Italian Supreme Pizza  Supreme    M  37.25         2   
+3         4  The Italian Supreme Pizza  Supreme    M  16.50         1   
+4         5  The Italian Supreme Pizza  Supreme    M  16.50         1   
+
+   revenue        date      time  
+0    13.25  2015-01-01  11:38:36  
+1    92.00  2015-01-01  11:57:40  
+2    37.25  2015-01-01  12:12:28  
+3    16.50  2015-01-01  12:16:31  
+4    16.50  2015-01-01  12:21:30  
+2026-04-14 09:17:55,983 - INFO - clean data...
+2026-04-14 09:17:55,983 - INFO - cleaning table ....
+2026-04-14 09:17:56,075 - INFO - successfully cleaned
+2026-04-14 09:17:56,077 - INFO -    order_id                       name category size  price  quantity  \
+0         1         The Hawaiian Pizza  Classic    M  13.25         1   
+1         2     The Thai Chicken Pizza  Chicken    L  92.00         5   
+2         3  The Italian Supreme Pizza  Supreme    M  37.25         2   
+3         4  The Italian Supreme Pizza  Supreme    M  16.50         1   
+4         5  The Italian Supreme Pizza  Supreme    M  16.50         1   
+
+   revenue month_name  hour   weekday  
+0    13.25    January    11  Thursday  
+1    92.00    January    11  Thursday  
+2    37.25    January    12  Thursday  
+3    16.50    January    12  Thursday  
+4    16.50    January    12  Thursday  
+2026-04-14 09:17:56,082 - INFO - ingesting...
+2026-04-14 09:17:56,226 - INFO - completed
+2026-04-14 09:23:41,891 - INFO - Pipeline started
+2026-04-14 09:23:41,891 - INFO - Starting SQL query to create pizza table
+2026-04-14 09:27:54,710 - INFO - Pipeline started
+2026-04-14 09:27:54,710 - INFO - Starting SQL query to create pizza table
+2026-04-14 09:29:55,539 - INFO - Pipeline started
+2026-04-14 09:29:55,539 - INFO - Starting SQL query to create pizza table
+2026-04-14 09:29:55,916 - INFO - Pizza table created successfully
+2026-04-14 09:29:55,923 - INFO - Cleaning dataset...
+2026-04-14 09:29:56,049 - INFO - Data cleaned successfully
+2026-04-14 09:29:56,943 - INFO - Total time taken: 0.02 minutes
+2026-04-14 09:29:56,943 - INFO - Pipeline completed successfully
+2026-04-14 09:32:00,255 - INFO - Pipeline started
+2026-04-14 09:32:00,256 - INFO - Starting SQL query to create pizza table
+2026-04-14 09:32:00,754 - INFO - Pizza table created successfully
+2026-04-14 09:32:00,762 - INFO - Cleaning dataset...
+2026-04-14 09:32:00,866 - INFO - Data cleaned successfully
+2026-04-14 09:32:01,539 - INFO - Total time taken: 0.02 minutes
+2026-04-14 09:32:01,539 - INFO - Pipeline completed successfully
+2026-04-14 09:41:56,948 - INFO - Pipeline started
+2026-04-14 09:41:56,948 - INFO - Starting SQL query to create pizza table
+2026-04-14 09:41:57,440 - INFO - Pizza table created successfully
+2026-04-14 09:41:57,448 - INFO - Cleaning dataset...
+2026-04-14 09:41:57,543 - INFO - Data cleaned successfully
+2026-04-14 09:41:58,165 - INFO - Total time taken: 0.02 minutes
+2026-04-14 09:41:58,165 - INFO - Pipeline completed successfully
+2026-04-14 09:47:07,161 - INFO - Pipeline started
+2026-04-14 09:47:07,171 - INFO - Starting SQL query to create pizza table
+2026-04-14 09:47:07,566 - INFO - Pizza table created successfully
+2026-04-14 09:47:07,573 - INFO - Cleaning dataset...
+2026-04-14 09:47:07,659 - INFO - Data cleaned successfully
+2026-04-14 09:47:08,259 - INFO - Total time taken: 0.02 minutes
+2026-04-14 09:47:08,259 - INFO - Pipeline completed successfully
+2026-04-15 19:33:39,219 - INFO - ingest:orders.csv in db
+2026-04-15 19:33:41,177 - INFO - ingest:order_details.csv in db
+2026-04-15 19:33:42,151 - INFO - ingest:pizzas.csv in db
+2026-04-15 19:33:42,231 - INFO - ingest:pizza_types.csv in db
+2026-04-15 19:33:42,290 - INFO - ingestion complete
+2026-04-15 19:33:42,291 - INFO - total time taken:4.5697832107543945 minute
+2026-04-15 19:36:43,488 - DEBUG - matplotlib data path: C:\Users\rk410\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\matplotlib\mpl-data
+2026-04-15 19:36:43,529 - DEBUG - CONFIGDIR=C:\Users\rk410\.matplotlib
+2026-04-15 19:36:44,183 - DEBUG - interactive is False
+2026-04-15 19:36:44,184 - DEBUG - platform is win32
+2026-04-15 19:36:44,654 - DEBUG - CACHEDIR=C:\Users\rk410\.matplotlib
+2026-04-15 19:36:44,696 - DEBUG - Using fontManager instance from C:\Users\rk410\.matplotlib\fontlist-v390.json
+2026-04-16 13:37:33,676 - INFO - ingest:orders.csv in db
+2026-04-16 13:37:34,029 - INFO - ingest:order_details.csv in db
+2026-04-16 13:37:35,547 - INFO - ingest:pizzas.csv in db
+2026-04-16 13:37:35,616 - INFO - ingest:pizza_types.csv in db
+2026-04-16 13:37:35,675 - INFO - ingestion complete
+2026-04-16 13:37:35,676 - INFO - total time taken:3.889031410217285 minute
