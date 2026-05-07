@@ -60,6 +60,27 @@ pizza_sales_project/
 ├── pizza sales analysis using sql.pdf   # SQL analysis report
 ├── report.pdf                 # Final business insights report
 
+## ⚙️ Automated ETL Pipeline
+The project includes a reusable ETL pipeline built using Python and SQLite to automate data ingestion, transformation, and analytical dataset creation.
+### Pipeline Workflow
+Raw CSV Files
+   ↓
+Python Ingestion Scripts
+   ↓
+SQLite Database Tables
+   ↓
+SQL Joins & Transformations
+   ↓
+Clean Analytical Dataset
+### Key Features
+- Automated ingestion of multiple CSV files into SQLite
+- Reusable Python functions for data loading
+- SQL joins and transformation pipeline
+- Logging system for execution tracking
+- Automated table refresh using replace logic
+- Feature engineering for month, weekday, and hourly analysis
+
+
 ## 📈 Strategic Revenue & Operational Insights
 
 ### 💰 Profitability vs Popularity
